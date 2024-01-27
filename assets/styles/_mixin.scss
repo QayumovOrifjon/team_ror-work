@@ -1,0 +1,9 @@
+@mixin dFlex($spaceBetween:space-between,$alignItems:center){
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+$primaryColor : #FFB548;
+
+
