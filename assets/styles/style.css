@@ -63,7 +63,7 @@
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -75,4 +75,298 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.footer {
+  background-color: #080a0b;
+  display: flex;
+}
+.footer__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin: 300px 485px 10px 121px;
+}
+.footer__subtitle {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0px 0px 45px 121px;
+}
+.footer__text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0px 0px 40px 121px;
+}
+.footer__btn {
+  border-radius: 4px;
+  background-color: #ffb548;
+  width: 260px;
+  height: 60.251px;
+  border: none;
+  margin: 0px 0px 200px 121px;
+}
+.footer__btn:hover {
+  background-color: rgb(250, 141, 7);
+  transition: all ease 0.5;
+}
+.footer__btn .btn__read {
+  color: #1a1917;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.footer__btn .btn__read:hover {
+  color: rgb(50, 242, 16);
+  transition: all ease 0.5;
+}
+.footer__card {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  width: 452px;
+  height: 182px;
+  margin: 160px 0px 0px 0px;
+}
+.footer__card2 {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  width: 452px;
+  height: 200px;
+  margin: 30px 0px 0px -166px;
+}
+.footer__card3 {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  width: 454px;
+  height: 200px;
+  margin: 30px 0px 0px 0px;
+}
+.footer .card {
+  display: flex;
+}
+.footer .card__img {
+  margin: 11px 0px 0px 12px;
+}
+.footer .card__title {
+  color: #ffb548;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin: 25px 200px 0px 20px;
+}
+.footer .card__span {
+  color: #fff;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.5;
+}
+.footer .card__titlee {
+  color: #ffb548;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin: 25px 170px 0px 20px;
+}
+.footer .card .twitter:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease;
+}
+.footer .card__subtitle {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 26px 0px 9px 17px;
+}
+.footer .card__date {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+  margin: 0px 0px 0px 17px;
+}
+
+.finsh {
+  background-color: #080a0b;
+}
+.finsh__header {
+  display: flex;
+}
+.finsh__img {
+  padding: 50px 70px 60px 160px;
+}
+.finsh__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin: 220px 0 10px 0;
+}
+.finsh__subtitle {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0px 0px 45px 0;
+}
+.finsh__text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0 0 55px 0;
+}
+.finsh__from {
+  display: flex;
+}
+.finsh__email {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  width: 367px;
+  height: 60px;
+  border: none;
+}
+.finsh__email:hover {
+  background-color: rgb(230, 11, 11);
+  transition: all ease 0.5;
+}
+.finsh__email .email__text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 0px 0px 20px;
+  opacity: 0.5;
+}
+.finsh__email .email__text:hover {
+  color: rgb(3, 3, 3);
+  transition: all ease 0.5;
+}
+.finsh__email .email__textt {
+  width: 360px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.finsh__btn {
+  border-radius: 4px;
+  background-color: #ffb548;
+  width: 260px;
+  height: 60px;
+  border: none;
+  margin: 0 0 0 20px;
+}
+.finsh__btn:hover {
+  background-color: rgb(250, 141, 7);
+  transition: all ease 0.5;
+}
+.finsh__btn .btn__text {
+  color: #1a1917;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.finsh__btn .btn__text:hover {
+  color: rgb(50, 242, 16);
+  transition: all ease 0.5;
+}
+.finsh__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.finsh__logo {
+  padding: 20px 130px 30px 120px;
+}
+.finsh__logo:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s ease;
+}
+.finsh__main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 30px 0px 0px;
+}
+.finsh .main__title {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 10px 5px;
+}
+.finsh .main__title:hover {
+  color: red;
+  transition: all ease 0.3;
+}
+.finsh__social {
+  margin: 80px 125px 30px 0px;
+}
+.finsh__line {
+  border-bottom: 1px solid #fff;
+  opacity: 0.5;
+  margin: 0px 125px 0px 120px;
+}
+.finsh__adress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 125px 50px 120px;
+}
+.finsh .adress__title {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.finsh .adress__title:hover {
+  color: #1c6c20;
+  transition: all ease 0.3;
+}
+.finsh .adress__subtitle {
+  color: #fff;
+  text-align: right;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.finsh .adress__subtitle:hover {
+  color: #0de318;
+  transition: all ease 0.3;
 }/*# sourceMappingURL=style.css.map */
