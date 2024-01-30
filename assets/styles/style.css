@@ -263,6 +263,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 54px;
+  background-color: transparent;
 }
 .main .images img:hover {
   background-color: #FFF;
