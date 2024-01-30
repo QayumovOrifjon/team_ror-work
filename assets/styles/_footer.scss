@@ -1,5 +1,4 @@
 .footer {
-<<<<<<< HEAD
     background-color: #080a0b;
     display: flex;
     &__title {
@@ -143,89 +142,6 @@
   
     &__title {
       color: #fff;
-=======
-  background-color: #080a0b;
-  display: flex;
-  &__title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 2px;
-    margin: 300px 485px 10px 121px;
-  }
-  &__subtitle {
-    color: #fff;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin: 0px 0px 45px 121px;
-  }
-  &__text {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    margin: 0px 0px 40px 121px;
-  }
-  &__btn {
-    border-radius: 4px;
-    background-color: #ffb548;
-    width: 260px;
-    height: 60.251px;
-    border: none;
-    margin: 0px 0px 200px 121px;
-    &:hover {
-      background-color: rgb(250, 141, 7);
-      transition: all ease 0.5;
-    }
-    .btn__read {
-      color: #1a1917;
-      text-align: center;
-      font-family: "Open Sans";
-      font-size: 16px;
-      font-weight: 700;
-      line-height: normal;
-      text-transform: capitalize;
-      &:hover {
-        color: rgb(50, 242, 16);
-
-        transition: all ease 0.5;
-      }
-    }
-  }
-  &__card {
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.08);
-    width: 452px;
-    height: 182px;
-    margin: 160px 0px 0px 0px;
-  }
-  &__card2 {
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.08);
-    width: 452px;
-    height: 200px;
-    margin: 30px 0px 0px -166px;
-  }
-  &__card3 {
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.08);
-    width: 454px;
-    height: 200px;
-    margin: 30px 0px 0px 0px;
-  }
-  .card {
-    display: flex;
-    &__img {
-      margin: 11px 0px 0px 12px;
-    }
-    &__title {
-      color: #ffb548;
->>>>>>> footer
       font-size: 24px;
       font-weight: 700;
       line-height: normal;
@@ -247,7 +163,6 @@
       font-size: 18px;
       font-weight: 400;
       line-height: 22px;
-<<<<<<< HEAD
       margin: 0 0 55px 0;
     }
     &__from {
@@ -360,101 +275,11 @@
      
     }
     .adress__title {
-=======
-      opacity: 0.5;
-    }
-
-    &__titlee {
-      color: #ffb548;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: 2px;
-      margin: 25px 170px 0px 20px;
-    }
-    .twitter{
-      &:hover{
-        transform: rotate(360deg);
-      transition: all 1s ease;
-    }
-    }
-  }
-  .card__subtitle {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-    margin: 26px 0px 9px 17px;
-  }
-  .card__date {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    opacity: 0.5;
-    margin: 0px 0px 0px 17px;
-  }
-}
-
-.finsh {
-  background-color: #080a0b;
-  &__header {
-    display: flex;
-  }
-
-  &__img {
-    padding: 50px 70px 60px 160px;
-  }
-
-  &__title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 2px;
-    margin: 220px 0 10px 0;
-  }
-  &__subtitle {
-    color: #fff;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin: 0px 0px 45px 0;
-  }
-  &__text {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    margin: 0 0 55px 0;
-  }
-  &__from {
-    display: flex;
-  }
-  &__email {
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.08);
-    width: 367px;
-    height: 60px;
-    border: none;
-    &:hover {
-      background-color: rgb(230, 11, 11);
-      transition: all ease 0.5;
-    }
-
-    .email__text {
->>>>>>> footer
       color: #fff;
       font-family: "Open Sans";
       font-size: 14px;
       font-weight: 400;
       line-height: normal;
-<<<<<<< HEAD
       opacity: 0.5;
       &:hover{
         color: #1c6c20;
@@ -476,121 +301,3 @@
       }
     }
   }
-=======
-      padding: 6px 0px 0px 20px;
-      opacity: 0.5;
-      &:hover {
-        color: rgb(3, 3, 3);
-        transition: all ease 0.5;
-      }
-    }
-    .email__textt {
-      width: 360px;
-      height: 40px;
-      background-color: transparent;
-      border: none;
-      outline: none;
-      
-    }
-  }
-  &__btn {
-    border-radius: 4px;
-    background-color: #ffb548;
-    width: 260px;
-    height: 60px;
-    border: none;
-    margin: 0 0 0 20px;
-    &:hover {
-      background-color: rgb(250, 141, 7);
-      transition: all ease 0.5;
-    }
-    .btn__text {
-      color: #1a1917;
-      text-align: center;
-      font-family: "Open Sans";
-      font-size: 16px;
-      font-weight: 700;
-      line-height: normal;
-      text-transform: capitalize;
-      &:hover {
-        color: rgb(50, 242, 16);
-
-        transition: all ease 0.5;
-      }
-    }
-  }
-  &__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  &__logo {
-    padding: 20px 130px 30px 120px;
-    &:hover{
-      transform: rotate(360deg);
-    transition: all 0.5s ease;}
-  }
-  &__main {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin: 40px 30px 0px 0px;
-  }
-  .main__title {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 12px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    padding: 10px 5px;
-    &:hover {
-      color: red;
-      transition: all ease 0.3;
-    }
-  }
-  &__social {
-    margin: 80px 125px 30px 0px;
-  }
-  &__line {
-    border-bottom: 1px solid #fff;
-    opacity: 0.5;
-    margin: 0px 125px 0px 120px;
-   
-  }
-  &__adress {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 125px 50px 120px;
-   
-  }
-  .adress__title {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    opacity: 0.5;
-    &:hover{
-      color: #1c6c20;
-      transition: all  ease 0.3 ;
-    }
-  }
-  .adress__subtitle {
-    color: #fff;
-    text-align: right;
-    font-family: "Open Sans";
-    font-size: 12px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    &:hover{
-      color: #0de318;
-      transition: all  ease 0.3 ;
-    }
-  }
-}
->>>>>>> footer
