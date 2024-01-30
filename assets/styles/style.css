@@ -79,6 +79,8 @@ a {
 
 .footer {
   background-color: #080a0b;
+}
+.footer .footer__top {
   display: flex;
 }
 .footer__title {
@@ -263,7 +265,7 @@ a {
   opacity: 0.5;
 }
 .finsh__email .email__text:hover {
-  color: rgb(3, 3, 3);
+  color: rgb(8, 8, 8);
   transition: all ease 0.5;
 }
 .finsh__email .email__textt {
@@ -272,6 +274,7 @@ a {
   background-color: transparent;
   border: none;
   outline: none;
+  color: #fff;
 }
 .finsh__btn {
   border-radius: 4px;
@@ -304,7 +307,7 @@ a {
   justify-content: space-between;
 }
 .finsh__logo {
-  padding: 20px 130px 30px 120px;
+  margin: 20px 130px 30px 120px;
 }
 .finsh__logo:hover {
   transform: rotate(360deg);

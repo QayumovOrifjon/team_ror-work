@@ -1,6 +1,8 @@
-.footer {
+.footer{
   background-color: #080a0b;
-  display: flex;
+.footer__top {
+ display: flex;
+  }
   &__title {
     color: #fff;
     font-size: 24px;
@@ -174,9 +176,10 @@
     width: 367px;
     height: 60px;
     border: none;
-    &:hover {
+        &:hover {
       background-color: rgb(230, 11, 11);
       transition: all ease 0.5;
+     
     }
 
     .email__text {
@@ -188,7 +191,7 @@
       padding: 6px 0px 0px 20px;
       opacity: 0.5;
       &:hover {
-        color: rgb(3, 3, 3);
+        color: rgb(8, 8, 8);
         transition: all ease 0.5;
       }
     }
@@ -198,7 +201,7 @@
       background-color: transparent;
       border: none;
       outline: none;
-      
+      color: #fff;
     }
   }
   &__btn {
@@ -233,7 +236,7 @@
     justify-content: space-between;
   }
   &__logo {
-    padding: 20px 130px 30px 120px;
+    margin: 20px 130px 30px 120px;
     &:hover{
       transform: rotate(360deg);
     transition: all 0.5s ease;}
