@@ -79,6 +79,8 @@ a {
 
 .header {
   background-image: url("../images/img/bg image 1 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
   width: 100vw;
   height: 1100px;
@@ -102,6 +104,24 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  color: #FFF;
+}
+.header__inner .top__right span {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+.header__inner .top__right span:hover {
+  color: #FFB548;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+.header__inner .top__right select {
+  outline: none;
+  background-color: transparent;
+  border: none;
   color: #FFF;
 }
 .header__inner .list__link {
@@ -169,6 +189,7 @@ a {
 .main {
   background-image: url("../images/img/bg image 2.jpg");
   background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
   width: 100vw;
   height: 960px;
