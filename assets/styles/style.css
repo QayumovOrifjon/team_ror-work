@@ -438,6 +438,7 @@ a {
 }
 .features__content__left .features-body .features-item3 {
   padding: 25px 14px 36px 14px;
+  width: 100%;
   border: 1px solid #979797;
   border-top: none;
   border-bottom-right-radius: 15px;
